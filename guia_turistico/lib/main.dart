@@ -69,10 +69,10 @@ class _HomePageState extends State<HomePage> {
         fit: StackFit.expand,
         children: [
           Image.asset(
-            'images/Praia.jpg',
+            "images/praia.jpg",
             fit: BoxFit.cover,
           ),
-          Container(color: Colors.black),
+          Container(color: Colors.black.withOpacity(0.5)),
           Padding(
             padding: const EdgeInsets.all(24),
             child: Column(
