@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Cidade Velha",
+    "short_description": "Primeira cidade fundada em Cabo Verde.",
+    "description": "Devido à sua posição geoestratégica, a cidade foi disputada por vários navegadores europeus, entre o Séc XV e o Séc XIII, tendo estado sobre diferentes domínios, Português e Espanhol, tendo sido também atacada e saqueada por piratas de outros países Europeus. Outrora um movimentado local, Ribeira Grande, que funcionava como preparação e mercado de escravos, hoje a Cidade Velha é um local pacato, cheio de história e de importantes escavações arqueológicas, que pretendem recuperar o património existente e permitem entender melhor o comportamento dos seus habitantes nos séculos passados.",
+    "image": "images/cidade_velha.jpg",
+    "location": "Cidade Velha, Santiago, Cabo Verde"
+  },
+  {
+    "id": 2,
+    "name": "Praia da Kebra Kanela",
+    "short_description": "Praia popular para banhos e passeios.",
+    "description": "Localização privilegiada e ser um excelente local para relaxar são as principais características da praia de Kebra Canela, uma das mais procuradas da Cidade da Praia. Esta praia de areia escura, cujo acesso é efetuado através de umas pequenas escadas, tem um carácter intimista, pois é cercada, a toda a volta, na parte da areia, por rocha.",
+    "image": "images/kebra_Kanela.jpg",
+    "location": "Praia, Santiago, Cabo Verde"
+  },
+  {
+    "id": 3,
+    "name": "Serra Malagueta",
+    "short_description": "Parque natural com trilhos e paisagens.",
+    "description": "A Serra Malagueta é uma serra situada na ilha de Santiago, no arquipélago de Cabo Verde. O seu ponto mais elevado tem 1.064 m de altitude. Tem origem vulcânica e fica situada a 10 km a sudeste de Tarrafal, a 7 km a oeste da Calheta de São Miguel, e a 7 km a norte de Assomada numa das cordilheiras de montanhas que atravessam o interior da ilha. Mais a sul fica situado o Pico da Antónia e norte o Monte Graciosa norte de Tarrafal. A serra serve de fronteira entre os municípios de Tarrafal, São Miguel e Santa Catarina. A serra e a área circundante formam o Parque Natural da Serra Malagueta.",
+    "image": "images/serra_malagueta.jpg",
+    "location": "Santiago, Cabo Verde"
+  },
+  {
+    "id": 3,
+    "name": "Praia de Tarrafal",
+    "short_description": "Praia de areia clara, onde pode ver os tradicionais barcos locais.",
+    "description": "A praia do Tarrafal é um local com pouca gente, o que permite a quem a visita estar bastante à vontade. Ideal para relaxar e para passear junto ao mar na sua areia clara, apanhar sol e desfrutar da água morna e límpida que esta apresenta. Junto à praia existem restaurantes. Está bem localizada, perto da vila. O acesso à praia é plano e simples. A Praia do Tarrafal é, provavelmente, a melhor praia da maravilhosa Ilha de Santiago, apesar de existirem outras praias como Kebra Kanela ou São Francisco. Apaixone-se pelo seu extenso areal e águas cristalinas. Além disso, se gosta de desportos aquáticos, pode sempre fazer snorkeling ou surf, por exemplo.",
+    "image": "images/tarrafal.jpg",
+    "location": "Santiago, Cabo Verde"
+  }
+]
