@@ -9,7 +9,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-  
+
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
   String weatherDescription = "A carregar...";
   IconData weatherIcon = Icons.help_outline;
 
-  final String cityName = 'Cidade da Praia';
+  final String cityName = 'Praia';
   final double latitude = 14.933;
   final double longitude = -23.513;
 
