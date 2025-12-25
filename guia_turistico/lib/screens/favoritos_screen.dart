@@ -22,8 +22,7 @@ class _FavoritosScreenState extends State<FavoritosScreen> {
 
   Future<void> loadFavoritos() async {
     final ids = await FavoritosService.getFavoritosIds();
-    final String jsonString =
-        await rootBundle.loadString('data/pointsOfInterest.json');
+    final String jsonString = await rootBundle.loadString('data/pointsOfInterest.json');
     final List<dynamic> jsonData = json.decode(jsonString);
 
     final List<Map<String, dynamic>> favoritosFiltrados = jsonData
