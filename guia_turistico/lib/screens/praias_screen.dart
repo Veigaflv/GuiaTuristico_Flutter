@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'detalhes_screen.dart';
 
 class PraiasScreen extends StatefulWidget {
   const PraiasScreen({super.key});
@@ -55,53 +56,12 @@ class _PraiasScreenState extends State<PraiasScreen> {
                     title: Text(praia['name']),
                     subtitle: Text(praia['short_description']),
                     onTap: () {
-                      showDialog(
-                        context: context,
-                        builder: (context) => AlertDialog(
-                          title: Text(praia['name']),
-                          content: SingleChildScrollView(
-                            child: Row(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                // Imagem do lado esquerdo
-                                SizedBox(
-                                  width: 250,
-                                  height: 250, // altura razoável
-                                  child: Image.asset(
-                                    praia['image'],
-                                    fit: BoxFit.cover,
-                                  ),
-                                ),
-                                const SizedBox(width: 12), // espaçamento entre imagem e texto
-                                // Texto do lado direito
-                                Expanded(
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      Text(praia['description']),
-                                      const SizedBox(height: 12),
-                                      Text(
-                                        'Localização: ${praia['location']}',
-                                        style: const TextStyle(fontWeight: FontWeight.bold),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ],
-                            ),
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DetalhesScreen(
+                            item: praia,
                           ),
-                          actions: [
-                            TextButton(
-                              onPressed: () => Navigator.pop(context),
-                              child: const Text('Fechar'),
-                            ),
-                            TextButton(
-                              onPressed: () {
-                                // Por enquanto não faz nada
-                              },
-                              child: const Text('Adicionar aos favoritos'),
-                            ),
-                          ],
                         ),
                       );
                     },

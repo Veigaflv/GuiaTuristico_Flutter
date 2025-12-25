@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:guia_turistico/screens/favoritos_screen.dart';
 import 'package:guia_turistico/screens/praias_screen.dart';
 import 'package:guia_turistico/screens/monumentos_screen.dart';
 import 'package:guia_turistico/screens/paisagens_screen.dart';
@@ -44,6 +45,27 @@ class CategoriasScreen extends StatelessWidget {
                   );
                 },
                 child: const Text('Paisagens'),
+              ),
+              const SizedBox(height: 16),
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.redAccent,
+                  foregroundColor: Colors.white,
+                ),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const FavoritosScreen()),
+                  );
+                },
+                child: const Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.favorite),
+                    SizedBox(width: 8),
+                    Text('Favoritos'),
+                  ],
+                ),
               ),
             ],
           ),

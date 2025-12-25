@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                     ],
                   )
                 else
-                  const CircularProgressIndicator(color: Colors.white),
+                const CircularProgressIndicator(color: Colors.white),
                 const SizedBox(height: 32),
                 ElevatedButton(
                     onPressed: () {
